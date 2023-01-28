@@ -1,0 +1,60 @@
+[
+    [
+        "1.1.1.1:80@user:password",
+        {
+            "host": "1.1.1.1",
+            "port": 80,
+            "auth": {
+                "username": "user",
+                "password": "password"
+            }
+        }
+    ],
+    [
+        "1.1.1.1:80",
+        {
+            "host": "1.1.1.1",
+            "port": 80
+        }
+    ],
+    [
+        "255.255.255.255:80@user:password",
+        {
+            "host": "255.255.255.255",
+            "port": 80,
+            "auth": {
+                "username": "user",
+                "password": "password"
+            }
+        }
+    ],
+    [
+        "255.255.255.255:80@1:2",
+        {
+            "host": "255.255.255.255",
+            "port": 80,
+            "auth": {
+                "username": "1",
+                "password": "2"
+            }
+        }
+    ],
+    [
+        "1.1.1.1",
+        {
+            "host": "1.1.1.1",
+            "port": 80
+        }
+    ],
+    [
+        "255.255.255.255@user:password",
+        {
+            "host": "255.255.255.255",
+            "port": 80,
+            "auth": {
+                "username": "user",
+                "password": "password"
+            }
+        }
+    ]
+]
